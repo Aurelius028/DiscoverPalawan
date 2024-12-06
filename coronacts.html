@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Coron Activities </title>
+  <style>
+    /* Global Styles */
+    body {
+      margin: 0;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    .hero-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    .content {
+      max-width: 600px;
+      width: 90%;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 15px;
+      background: rgba(255, 255, 255, 0.15);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 1rem;
+      margin-bottom: 10px;
+      text-align: left;
+      color: black;
+    }
+
+    li {
+      text-align: justify;
+      font-size: 0.9rem;
+    }
+
+    .image-container2 {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+
+    .image-container2 img {
+      border-radius: 20px;
+      max-width: 200px;
+      height: auto;
+      margin-right: 20px;
+      margin-top: 26px;
+      float: left;
+    }
+
+    .image-container2 p {
+      text-align: justify;
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+
+    .back-btn {
+      display: inline-block;
+      background-color: white;
+      color: black;
+      padding: 10px 20px;
+      font-size: 1rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      text-align: center;
+      transition: background 0.3s ease;
+      margin-top: 20px;
+      text-decoration: none;
+      text-decoration: none;
+    }
+
+    .back-btn:hover {
+      background: rgba(255, 255, 255, 0.15);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(10px);
+      color: #063f3f;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      .image-container2 img {
+        max-width: 100%;
+      }
+
+      .image-container2 {
+        flex-direction: column;
+      }
+
+      .image-container2 img {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+      }
+
+      .back-btn {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <video src="coron.mp4" autoplay loop muted></video>
+
+  <div class="hero-section">
+
+    <div class="content">
+      <h1>Activities</h1>
+      <ul>
+        <h2> Swim in Kayangan Lake </h2>
+        <div class="image-container2">
+          <img src="Kayangan.jpg" alt="Swim in Kayangan Lake">
+          <p> Experience the crystal-clear waters of Kayangan Lake, often regarded as the cleanest lake in the
+            Philippines.
+            Surrounded by towering limestone cliffs and lush greenery, this breathtaking destination is perfect for a
+            refreshing swim.
+          </p>
+        </div>
+      </ul>
+
+      <ul>
+        <h2> Take a Dip in Barracuda Lake </h2>
+        <div class="image-container2">
+          <img src="Baracuda.jpg" alt="Take a Dip in Barracuda Lake">
+          <p> Dive into the mystical Barracuda Lake, known for its striking underwater rock formations and unique
+            thermocline layers.
+            It’s a paradise for adventurous divers seeking a one-of-a-kind experience.
+          </p>
+        </div>
+      </ul>
+
+      <ul>
+        <h2> Explore Siete Pecados </h2>
+        <div class="image-container2">
+          <img src="Siete.jpg" alt="Explore Siete Pecados">
+          <p>
+            Snorkel in the vibrant marine sanctuary of Siete Pecados, where colorful corals and diverse marine life
+            thrive.
+            This spot is perfect for underwater photography and nature lovers.
+          </p>
+        </div>
+      </ul>
+
+      <ul>
+        <h2> Snorkel and Dive in Malcapuya Island </h2>
+        <div class="image-container2">
+          <img src="Malcapuya.jpg" alt="Snorkel and Dive in Malcapuya Island">
+          <p>
+            Discover the pristine beauty of Malcapuya Island, boasting powdery white sands and turquoise waters.
+            It’s an idyllic getaway for snorkeling, diving, and soaking up the sun.
+          </p>
+        </div>
+      </ul>
+
+      <ul>
+        <h2> Discover the Beauty of Twin Lagoon </h2>
+        <div class="image-container2">
+          <img src="Twin.jpg" alt="Discover the Beauty of Twin Lagoon">
+          <p>
+            Navigate through the enchanting Twin Lagoon, where dramatic limestone cliffs surround turquoise waters.
+            Swim or kayak between the lagoons for a magical experience.
+          </p>
+        </div>
+      </ul>
+
+      <ul>
+        <h2> Relax in Maquinit Hot Spring </h2>
+        <div class="image-container2">
+          <img src="Hot.jpg" alt="Relax in Maquinit Hot Spring">
+          <p>
+            Unwind in the soothing Maquinit Hot Spring, a natural saltwater spring surrounded by mangroves.
+            It’s the perfect way to relax after a day of adventures.
+          </p>
+        </div>
+      </ul>
+
+      <ul>
+        <h2> Travel to Culion Island for a Historical Day Tour </h2>
+        <div class="image-container2">
+          <img src="Culion.jpg" alt="Travel to Culion Island for a Historical Day Tour">
+          <p>
+            Explore Culion Island, rich in history and culture. Visit the Culion Museum and Church to learn about its
+            past as a leper colony
+            and admire the stunning views from the fortress ruins.
+          </p>
+        </div>
+      </ul>
+
+      <ul>
+        <h2> Get a Panoramic View of Coron in Mt. Tapyas </h2>
+        <div class="image-container2">
+          <img src="Tapyas.jpg" alt="Get a Panoramic View of Coron in Mt. Tapyas">
+          <p>
+            Hike up Mt. Tapyas for a breathtaking panoramic view of Coron town and its surrounding islands.
+            The climb is rewarded with a stunning sunset.
+          </p>
+        </div>
+      </ul>
+
+      <ul>
+        <h2> Try Overnight Camping in Busuanga </h2>
+        <div class="image-container2">
+          <img src="Busuanga.jpg" alt="Try Overnight Camping in Busuanga">
+          <p>
+            Camp under the stars on Busuanga Island, surrounded by serene beaches and lush forests.
+            It’s an unforgettable adventure for nature lovers.
+          </p>
+        </div>
+      </ul>
+
+      <ul>
+        <h2> Visit Calauit Safari Park </h2>
+        <div class="image-container2">
+          <img src="Safari.jpg" alt="Visit Calauit Safari Park">
+          <p>
+            Step into an African-inspired wildlife sanctuary at Calauit Safari Park, home to giraffes, zebras, and other
+            exotic animals.
+            Perfect for a family-friendly day trip.
+          </p>
+        </div>
+      </ul>
+
+      <!-- Back Button -->
+      <a href="coron.html" class="back-btn">Back</a>
+
+    </div>
+  </div>
+</body>
+
+</html>
